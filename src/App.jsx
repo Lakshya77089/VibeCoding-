@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 
 // Initialize Gemini AI with your API key
-const GEMINI_API_KEY = 'AIzaSyDhgxPYjqXWXONu4zJpYwdWfzZ1UvtUUYY'; // Replace with your actual API key
+const GEMINI_API_KEY = 'process.env.API_KEY'; // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 // Mock data for both user and tooker
